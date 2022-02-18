@@ -6,13 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes em CSS</title>
     <style>
+        
         body{
             font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medida Relativas
+            em, ex, rem, vm, vh, %
+
+            O W3c Recomendar o usadas:
+            px e em.
+
+            16px geralmente = 1em = tamanho padrão do navegador.
+            */
+            /* Exemplo
+            font-size: 1em;
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: underline;
+            */
+
+            /* lighter normal bold bolder*/
+
         }
 
-        h1,h2{
-            font-family: 'Times New Roman', Times, serif;
+        h1{
+            
+            /*
+            font-family: Arial;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+
+            /*shorthand font
+            
+            - font-style -> font-weith -> font-size -> font-family*/
+
+            font: italic bolder 3em Arial
         }
+
     </style>
 </head>
 <body>
